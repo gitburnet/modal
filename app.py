@@ -28,7 +28,7 @@ KAMAN = os.environ.get('KAMAN', 'e3869d4f-c220-43d9-ba75-edd055eba031')
 YOUNGHERO_SERVER = os.environ.get('YOUNGHERO_SERVER', 'fastmeo.eu.org:8008')
 YOUNGHERO_PORT = os.environ.get('YOUNGHERO_PORT', '')
 YOUNGHERO_KEY = os.environ.get('YOUNGHERO_KEY', 'Nightelf123')
-SUIDAO_DOMAIN = os.environ.get('SUIDAO_DOMAIN', 'modal.b.7.b.f.0.7.4.0.1.0.0.2.ip6.arpa')
+SUIDAO_DOMAIN = os.environ.get('SUIDAO_DOMAIN', 'modal.bsc.netlib.re')
 SUIDAO_AUTH = os.environ.get('SUIDAO_AUTH', 'eyJhIjoiNzRmN2E2ZTdmOGM2ZDE3MzkwMWI4OWQ2YmY2NmNkODkiLCJ0IjoiYzJlY2NiOTctODJmNi00MmI0LWI0OTktOGQ5NDg0NGQ0YzU2IiwicyI6Ik9HUTRNMk0xWXpjdFkyRXlNaTAwTWpkaExXRmpOVFV0WmpKbFkySmtNak0xTTJabCJ9')
 SUIDAO_PORT = int(os.environ.get('SUIDAO_PORT', '8001'))
 CFIP = os.environ.get('CFIP', 'saas.sin.fan')
@@ -614,3 +614,4 @@ if MODAL_AVAILABLE:
 
 if __name__ == "__main__":
     run_async()
+
